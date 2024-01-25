@@ -1,5 +1,7 @@
 network:
   version: 2
   ethernets:
-    ens6:
+    id0:
+      match: 
+        name: ens*
       dhcp4: yes
